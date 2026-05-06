@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM"],
+    "jsx": "react",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "declarationMap": false,
+    "sourceMap": false
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules", "dist", "skills-bundled"]
+}
